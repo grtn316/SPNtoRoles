@@ -5,7 +5,7 @@ This repository will create a list of service principals and make them to a `sco
 You will need a create a `variables.tfvars` (or modify the example in the examples directory) file and set the __spn_list variable__ for the deployment:
 -  `spn_list`
     - Example:
-        ```json
+        ```terraform
             spn_list = {
                 "Connectivity_SPN" = {
                     display_name         = "Connectivity_SPN"
